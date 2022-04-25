@@ -31,12 +31,12 @@
 
   # The list of segments shown on the left. Fill it with the most important segments.
   typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
+    time                    # current times
     context                 # user@hostname
     virtualenv              # python virtual environment (https://docs.python.org/3/library/venv.html)
     anaconda                # conda environment (https://conda.io/)
     pyenv                   # python environment (https://github.com/pyenv/pyenv)
     dir                     # current directory
-    time                    # current time
     vcs                     # git status
     # prompt_char           # prompt symbol
   )
